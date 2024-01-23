@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(228, 223, 202, .5)!important;
+  }
+
+  #cabecalho{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    /* z-index: 99; */
+    border-bottom: 2px solid var(--ouro-velho);
+  }
+  
+  #cabecalho img {
+    width: 90px;
+    margin: 5px 30px 10px 30px;
+  }
+
+  .tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
+
+  .tabela textarea {
+    width: 80%;
+    height: 80px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: var(--tamanho-3dot0);
+    font-family: var(--font-montserrat);
+    background-color: rgba(228, 223, 202, .5)!important;
+    color: var(--preto);
+  }
+
+  .tabela label {
+    font-size: var(--tamanho-1dot2);
+    font-weight: var(--semibold);
+  }
+
+  .tabela button {
+    width: 60%;
+    height:50px;
+    background-color: rgba(228, 223, 202, .5)!important;
+    margin-top: 20px;
+    font-size: var(--tamanho-1dot4);
+    font-weight: var(--bold);
+  }
+
+  .tabela button:hover {
+    color: var(--violeta);
+  }
